@@ -310,8 +310,8 @@ def run():
             workbook.save(str(outPath/ 'Results.xlsx'))
             
             
-
-run()
+if __name__=='__main__':
+    run()
 
 
 
