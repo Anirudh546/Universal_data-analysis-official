@@ -266,7 +266,7 @@ def run():
                 Combined_removed.add(value2)
             for value1 in old_file['Combined'].unique():
                 if value1 not in Combined_removed:
-                    combined_count_removed.append(value1)
+                    combined_count_removed.append(j)
             your_output_list = [item.replace(":", " :") for item in combined_count_removed]
             st.write("Brand and model removed",your_output_list)
             
